@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Personal';
+const description = 'Hobbies, travel stories, albums and radio.';
+const permalink = `${Astro.site.href}personal`;
+---
+
+<BaseLayout title={title} description={description} permalink={permalink} current="personal">
+  <div class="container">
+    <h1>Personal</h1>
+    <h2 id="hobbies">Hobbies</h2>
+    <p>Outside of work I enjoy spending time outdoors and exploring new activities.</p>
+    <ul>
+      <li>Biking, climbing and rowing</li>
+      <li>Trekking and travel</li>
+      <li>Reading and amateur radio</li>
+    </ul>
+    <h2 id="travel">Travel</h2>
+    <p>A log of my past travels, upcoming plans and memorable routes.</p>
+    <p>See my tracks on <a href="https://www.wikiloc.com" target="_blank">Wikiloc</a> or <a href="https://www.komoot.com" target="_blank">Komoot</a>.</p>
+    <iframe width="100%" height="400" src="https://www.wikiloc.com/wikiloc/embed.do?id=12345" loading="lazy"></iframe>
+    <h2 id="albums">Albums</h2>
+    <p>Embedded albums from Google Photos.</p>
+    <iframe src="https://photos.google.com/share/examplealbum" width="100%" height="600" loading="lazy"></iframe>
+    <h2 id="radio">Radio</h2>
+    <p>I enjoy experimenting with amateur radio and building simple receivers and transmitters.</p>
+  </div>
+</BaseLayout>

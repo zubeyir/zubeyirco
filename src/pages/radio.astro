@@ -1,0 +1,14 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Radio';
+const description = 'My amateur radio activities.';
+const permalink = `${Astro.site.href}radio`;
+---
+
+<BaseLayout title={title} description={description} permalink={permalink} current="radio">
+  <div class="container">
+    <h1>Radio</h1>
+    <p>I enjoy experimenting with amateur radio and building simple receivers and transmitters.</p>
+  </div>
+</BaseLayout>
