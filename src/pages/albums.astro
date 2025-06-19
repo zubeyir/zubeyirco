@@ -1,14 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const title = 'Photo Gallery';
+const title = 'Albums';
 const description = 'Pictures from my adventures and projects.';
-const permalink = `${Astro.site.href}photos`;
+const permalink = `${Astro.site.href}albums`;
 ---
 
-<BaseLayout title={title} description={description} permalink={permalink} current="photos">
+<BaseLayout title={title} description={description} permalink={permalink} current="albums">
   <div class="container">
-    <h1>Photo Gallery</h1>
+    <h1>Albums</h1>
     <p>Embedded albums from Google Photos.</p>
     <iframe src="https://photos.google.com/share/examplealbum" width="100%" height="600" loading="lazy"></iframe>
   </div>
