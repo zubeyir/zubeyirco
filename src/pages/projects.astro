@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Projects';
+const description = 'Research and industrial projects.';
+const permalink = `${Astro.site.href}projects`;
+---
+
+<BaseLayout title={title} description={description} permalink={permalink} current="projects">
+  <div class="container">
+    <h1>Projects</h1>
+    <p>A showcase of selected research and industrial projects.</p>
+    <ul>
+      <li>Project One – imaging pipeline for clinical data</li>
+      <li>Project Two – neural interface prototype</li>
+      <li>Project Three – data analysis toolkit</li>
+    </ul>
+  </div>
+</BaseLayout>

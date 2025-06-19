@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Teaching';
+const description = 'Teaching activities in medicine and neuroscience.';
+const permalink = `${Astro.site.href}teaching`;
+---
+
+<BaseLayout title={title} description={description} permalink={permalink} current="teaching">
+  <div class="container">
+    <h1>Teaching</h1>
+    <p>I teach courses in medicine, physiology, neuroscience and neuroimaging at undergraduate and graduate level.</p>
+    <h2>Recent Courses</h2>
+    <ul>
+      <li>Introduction to Human Physiology</li>
+      <li>Neuroimaging Techniques</li>
+      <li>Advanced Neuroscience Seminars</li>
+    </ul>
+  </div>
+</BaseLayout>
