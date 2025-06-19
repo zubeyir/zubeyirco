@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Resume';
+const description = 'My professional resume and background.';
+const permalink = `${Astro.site.href}resume`;
+---
+
+<BaseLayout title={title} description={description} permalink={permalink} current="resume">
+  <div class="container">
+    <h1>Resume</h1>
+    <p>You can download my full CV as a PDF below or view it online.</p>
+    <p><a href="https://example.com/my-cv.pdf" target="_blank">Download PDF</a></p>
+  </div>
+</BaseLayout>

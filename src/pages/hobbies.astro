@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Hobbies';
+const description = 'What I like to do outside work.';
+const permalink = `${Astro.site.href}hobbies`;
+---
+
+<BaseLayout title={title} description={description} permalink={permalink} current="hobbies">
+  <div class="container">
+    <h1>Hobbies</h1>
+    <p>Outside of work I enjoy spending time outdoors and exploring new activities.</p>
+    <ul>
+      <li>Biking, climbing and rowing</li>
+      <li>Trekking and travel</li>
+      <li>Reading and amateur radio</li>
+    </ul>
+  </div>
+</BaseLayout>

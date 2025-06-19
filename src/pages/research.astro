@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Research';
+const description = 'Research interests and projects.';
+const permalink = `${Astro.site.href}research`;
+---
+
+<BaseLayout title={title} description={description} permalink={permalink} current="research">
+  <div class="container">
+    <h1>Research</h1>
+    <p>This section highlights my current and past research efforts in medicine, neuroscience, and neuroimaging.</p>
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Neuroimaging methods</li>
+      <li>Physiology and neural modelling</li>
+      <li>Medical device development</li>
+    </ul>
+    <h2>Recent Projects</h2>
+    <p>Details about industrial collaborations and academic projects can be listed here.</p>
+  </div>
+</BaseLayout>

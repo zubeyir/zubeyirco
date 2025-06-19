@@ -1,6 +1,8 @@
-# [Astro](https://astro.build) Blog Template
+# Personal Portfolio and Blog
 
-[![Screenshot](screenshot.png)](https://astro-blog-template.netlify.app/)
+# [Astro](https://astro.build) based template customized for a personal site.
+This project contains the code for a portfolio and blog that showcases
+research interests, projects and travel photos.
 
 ## 👉 Check out the ✨ [Live Demo](https://astro-blog-template.netlify.app/) ✨
 
