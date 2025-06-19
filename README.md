@@ -13,7 +13,7 @@ npm init astro -- --template Charca/astro-blog-template
 ```
 
 ### On StackBlitz
-
+ 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/charca/astro-blog-template)
 
 ## ✨ Features:
